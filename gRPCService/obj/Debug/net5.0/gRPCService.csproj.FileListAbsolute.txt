@@ -14,7 +14,6 @@ E:\techs\grpcSample\gRPCService\bin\Debug\net5.0\Grpc.Core.Api.dll
 E:\techs\grpcSample\gRPCService\bin\Debug\net5.0\Grpc.Net.Client.dll
 E:\techs\grpcSample\gRPCService\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
 E:\techs\grpcSample\gRPCService\bin\Debug\net5.0\Grpc.Net.Common.dll
-E:\techs\grpcSample\gRPCService\obj\Debug\net5.0\gRPCService.csprojAssemblyReference.cache
 E:\techs\grpcSample\gRPCService\obj\Debug\net5.0\gRPCService.GeneratedMSBuildEditorConfig.editorconfig
 E:\techs\grpcSample\gRPCService\obj\Debug\net5.0\gRPCService.AssemblyInfoInputs.cache
 E:\techs\grpcSample\gRPCService\obj\Debug\net5.0\gRPCService.AssemblyInfo.cs

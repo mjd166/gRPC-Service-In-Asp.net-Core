@@ -28,14 +28,14 @@ namespace ProductsService {
             "UHJvZHVjdBIRCglQcm9kdWN0SWQYASABKAUSDAoETmFtZRgCIAEoCRIOCgZB",
             "bW91bnQYAyABKAUSDQoFQnJhbmQYBCABKAkSDQoFUHJpY2UYBSABKAIiMgoL",
             "UHJvZHVjdExpc3QSIwoIUHJvZHVjdHMYASADKAsyES5Qcm9kdWN0cy5Qcm9k",
-            "dWN0IhcKCVByb2R1Y3RJZBIKCgJpZBgBIAEoBTKLAgoOUHJvZHVjdFNlcnZp",
-            "Y2USMgoGR2V0QWxsEg8uUHJvZHVjdHMuRW1wdHkaFS5Qcm9kdWN0cy5Qcm9k",
-            "dWN0TGlzdCIAEi8KA0dldBITLlByb2R1Y3RzLlByb2R1Y3RJZBoRLlByb2R1",
-            "Y3RzLlByb2R1Y3QiABIwCgZJbnNlcnQSES5Qcm9kdWN0cy5Qcm9kdWN0GhEu",
-            "UHJvZHVjdHMuUHJvZHVjdCIAEjAKBlVwZGF0ZRIRLlByb2R1Y3RzLlByb2R1",
-            "Y3QaES5Qcm9kdWN0cy5Qcm9kdWN0IgASMAoGRGVsZXRlEhMuUHJvZHVjdHMu",
-            "UHJvZHVjdElkGg8uUHJvZHVjdHMuRW1wdHkiAEISqgIPUHJvZHVjdHNTZXJ2",
-            "aWNlYgZwcm90bzM="));
+            "dWN0IhcKCVByb2R1Y3RJZBIKCgJpZBgBIAEoBTKMAgoPUHJvZHVjdFNlcnZp",
+            "Y2VzEjIKBkdldEFsbBIPLlByb2R1Y3RzLkVtcHR5GhUuUHJvZHVjdHMuUHJv",
+            "ZHVjdExpc3QiABIvCgNHZXQSEy5Qcm9kdWN0cy5Qcm9kdWN0SWQaES5Qcm9k",
+            "dWN0cy5Qcm9kdWN0IgASMAoGSW5zZXJ0EhEuUHJvZHVjdHMuUHJvZHVjdBoR",
+            "LlByb2R1Y3RzLlByb2R1Y3QiABIwCgZVcGRhdGUSES5Qcm9kdWN0cy5Qcm9k",
+            "dWN0GhEuUHJvZHVjdHMuUHJvZHVjdCIAEjAKBkRlbGV0ZRITLlByb2R1Y3Rz",
+            "LlByb2R1Y3RJZBoPLlByb2R1Y3RzLkVtcHR5IgBCEqoCD1Byb2R1Y3RzU2Vy",
+            "dmljZWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

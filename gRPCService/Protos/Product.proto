@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option csharp_namespace = "ProductsService";
 package Products;
-service ProductService{
+service ProductServices{
 
 	rpc GetAll (Empty) returns (ProductList) {}
 	rpc Get(ProductId) returns (Product) {}

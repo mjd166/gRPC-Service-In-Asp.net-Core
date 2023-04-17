@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace gRPCService.Services
 {
-    public class gRpcCRUDService:ProductService.ProductServiceBase
+    public class gRpcCRUDService:ProductServices.ProductServicesBase
     {
         private readonly List<Product> _products = new List<Product>();
         private int idCount = 0;

@@ -4,14 +4,14 @@
     "E:\\techs\\grpcSample\\ProductWebApplication\\ProductWebApplication.csproj": {}
   },
   "projects": {
-    "E:\\techs\\grpcSample\\ProductWebApplication\\ProductWebApplication.csproj": {
+    "E:\\techs\\grpcSample\\gRPCService\\gRPCService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\techs\\grpcSample\\ProductWebApplication\\ProductWebApplication.csproj",
-        "projectName": "ProductWebApplication",
-        "projectPath": "E:\\techs\\grpcSample\\ProductWebApplication\\ProductWebApplication.csproj",
+        "projectUniqueName": "E:\\techs\\grpcSample\\gRPCService\\gRPCService.csproj",
+        "projectName": "gRPCService",
+        "projectPath": "E:\\techs\\grpcSample\\gRPCService\\gRPCService.csproj",
         "packagesPath": "C:\\Users\\MAJID\\.nuget\\packages\\",
-        "outputPath": "E:\\techs\\grpcSample\\ProductWebApplication\\obj\\",
+        "outputPath": "E:\\techs\\grpcSample\\gRPCService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MAJID\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,83 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\techs\\grpcSample\\ProductWebApplication\\ProductWebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\techs\\grpcSample\\ProductWebApplication\\ProductWebApplication.csproj",
+        "projectName": "ProductWebApplication",
+        "projectPath": "E:\\techs\\grpcSample\\ProductWebApplication\\ProductWebApplication.csproj",
+        "packagesPath": "C:\\Users\\MAJID\\.nuget\\packages\\",
+        "outputPath": "E:\\techs\\grpcSample\\ProductWebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MAJID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\techs\\grpcSample\\gRPCService\\gRPCService.csproj": {
+                "projectPath": "E:\\techs\\grpcSample\\gRPCService\\gRPCService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.52.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -8,9 +8,9 @@
 using grpc = global::Grpc.Core;
 
 namespace ProductsService {
-  public static partial class ProductService
+  public static partial class ProductServices
   {
-    static readonly string __ServiceName = "Products.ProductService";
+    static readonly string __ServiceName = "Products.ProductServices";
 
     static void __Helper_SerializeMessage(global::Google.Protobuf.IMessage message, grpc::SerializationContext context)
     {
@@ -88,9 +88,9 @@ namespace ProductsService {
       get { return global::ProductsService.ProductReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of ProductService</summary>
-    [grpc::BindServiceMethod(typeof(ProductService), "BindService")]
-    public abstract partial class ProductServiceBase
+    /// <summary>Base class for server-side implementations of ProductServices</summary>
+    [grpc::BindServiceMethod(typeof(ProductServices), "BindService")]
+    public abstract partial class ProductServicesBase
     {
       public virtual global::System.Threading.Tasks.Task<global::ProductsService.ProductList> GetAll(global::ProductsService.Empty request, grpc::ServerCallContext context)
       {
@@ -121,7 +121,7 @@ namespace ProductsService {
 
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    public static grpc::ServerServiceDefinition BindService(ProductServiceBase serviceImpl)
+    public static grpc::ServerServiceDefinition BindService(ProductServicesBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_GetAll, serviceImpl.GetAll)
@@ -135,7 +135,7 @@ namespace ProductsService {
     /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
     /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, ProductServiceBase serviceImpl)
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, ProductServicesBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_GetAll, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::ProductsService.Empty, global::ProductsService.ProductList>(serviceImpl.GetAll));
       serviceBinder.AddMethod(__Method_Get, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::ProductsService.ProductId, global::ProductsService.Product>(serviceImpl.Get));
